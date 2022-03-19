@@ -59,6 +59,8 @@ public class Login {
                             new Index().run();
                             frame.dispose();
                         }
+                    } else {
+                        JOptionPane.showMessageDialog(null, "用户名或密码错误", null, JOptionPane.WARNING_MESSAGE);
                     }
                 } else {
                     JOptionPane.showMessageDialog(null, "用户名或密码错误", null, JOptionPane.WARNING_MESSAGE);

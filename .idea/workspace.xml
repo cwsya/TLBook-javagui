@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d832e363-c79a-4efb-8d0a-8d796aaf9311" name="变更" comment="" />
+    <list default="true" id="d832e363-c79a-4efb-8d0a-8d796aaf9311" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/pojo/BookPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/data/java/jdk8/src.zip!/javax/swing/table/TableModel.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/data/java/jdk8/src.zip!/javax/swing/JTable.java" root0="SKIP_INSPECTION" />
@@ -25,20 +36,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26Y2NTElrqwelYTv5AsCKVlOBBN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="175" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="328" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="404" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cwsya.TLBook.pojo" />
+    </key>
   </component>
   <component name="RunManager" selected="应用程序.app">
     <configuration name="HelloWorldSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -119,12 +137,23 @@
       <option name="presentableId" value="Default" />
       <updated>1647586162141</updated>
       <workItem from="1647586163228" duration="23998000" />
-      <workItem from="1647670288038" duration="2392000" />
+      <workItem from="1647670288038" duration="5813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

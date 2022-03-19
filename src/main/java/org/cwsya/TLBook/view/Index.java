@@ -10,6 +10,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * @author cws
+ */
 public class Index {
     private JPanel jp;
     private JTabbedPane tabbedPane1;
@@ -29,6 +32,18 @@ public class Index {
         add.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+            }
+        });
+        homePage.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Object[][] data = {
+                        {"a", "b", "c"},
+                        {"a", "b", "c"},
+                        {"a", "b", "c"}
+                };
+                TableModel tableModel = new DefaultTableModel(data, new Object[]{"1啊", "1吧", "1从"});
+                bookList.setModel(tableModel);
             }
         });
     }
@@ -119,10 +134,18 @@ public class Index {
         lastPage.setText("尾页");
         panel1.add(lastPage, new GridConstraints(1, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         final JScrollPane scrollPane1 = new JScrollPane();
+        scrollPane1.setEnabled(true);
+        scrollPane1.putClientProperty("html.disable", Boolean.FALSE);
         panel1.add(scrollPane1, new GridConstraints(0, 0, 1, 4, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, null, null, null, 0, false));
         bookList = new JTable();
+        bookList.setAutoCreateColumnsFromModel(true);
         bookList.setAutoCreateRowSorter(false);
-        bookList.setAutoResizeMode(4);
+        bookList.setAutoResizeMode(2);
+        bookList.setAutoscrolls(true);
+        bookList.setCellSelectionEnabled(false);
+        bookList.setColumnSelectionAllowed(false);
+        bookList.setEnabled(false);
+        bookList.setUpdateSelectionOnSort(true);
         scrollPane1.setViewportView(bookList);
         final JPanel panel2 = new JPanel();
         panel2.setLayout(new GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));

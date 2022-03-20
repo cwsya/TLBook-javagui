@@ -1,4 +1,5 @@
 import org.cwsya.TLBook.config.ClientConfig;
+import org.cwsya.TLBook.service.Impl.DataServiceImpl;
 import org.cwsya.TLBook.util.ConfigUtil;
 import org.cwsya.TLBook.util.HttpUtil;
 import org.junit.Test;
@@ -17,7 +18,6 @@ public class ttttttt {
     }
     @Test
     public void fkjs(){
-        ConfigUtil.setConfig("cwsya","123456");
-        System.out.println(ConfigUtil.getConfig("cwsya"));
+        new DataServiceImpl().getBook(1,null);
     }
 }

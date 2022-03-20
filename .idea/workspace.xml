@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d832e363-c79a-4efb-8d0a-8d796aaf9311" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/pojo/BookPojo.java" afterDir="false" />
+    <list default="true" id="d832e363-c79a-4efb-8d0a-8d796aaf9311" name="变更" comment="忘了改啥了">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/service/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/service/Impl/DataServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/config/ClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/config/ClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/util/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/util/HttpUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cwsya/TLBook/view/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ttttttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ttttttt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="org.cwsya.TLBook.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.app">
+  <component name="RunManager" selected="JUnit.ttttttt.fkjs">
     <configuration name="HelloWorldSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cwsya.TLBook.HelloWorldSwing" />
       <module name="TLBook-javagui" />
@@ -120,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ttttttt.fkjs" />
         <item itemvalue="应用程序.app" />
         <item itemvalue="JUnit.ttttttt.ttttttttt" />
-        <item itemvalue="JUnit.ttttttt.fkjs" />
         <item itemvalue="应用程序.LoginGui" />
         <item itemvalue="应用程序.HelloWorldSwing" />
       </list>
@@ -137,8 +137,17 @@
       <option name="presentableId" value="Default" />
       <updated>1647586162141</updated>
       <workItem from="1647586163228" duration="23998000" />
-      <workItem from="1647670288038" duration="5813000" />
+      <workItem from="1647670288038" duration="5897000" />
+      <workItem from="1647762173426" duration="3057000" />
     </task>
+    <task id="LOCAL-00001" summary="忘了改啥了">
+      <created>1647688463810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647688463810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +163,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="忘了改啥了" />
+    <option name="LAST_COMMIT_MESSAGE" value="忘了改啥了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,7 +2,9 @@ package org.cwsya.TLBook.view;
 
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
+import org.cwsya.TLBook.config.ClientConfig;
 
+import javax.lang.model.element.VariableElement;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
@@ -27,6 +29,13 @@ public class Index {
     private JButton lastPage;
     private JList list1;
 
+    private Object[] th;
+
+    {
+        th = new Object[]{"序号", "封面", "名称", "描述", "分类", "上传时间", "下载次数", "下载链接"};
+    }
+
+
     public Index() {
         $$$setupUI$$$();
         add.addActionListener(new ActionListener() {
@@ -37,12 +46,9 @@ public class Index {
         homePage.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Object[][] data = {
-                        {"a", "b", "c"},
-                        {"a", "b", "c"},
-                        {"a", "b", "c"}
-                };
-                TableModel tableModel = new DefaultTableModel(data, new Object[]{"1啊", "1吧", "1从"});
+                Object[][] data = new Object[ClientConfig.DATA_ROWS][];
+
+                TableModel tableModel = new DefaultTableModel(data, ClientConfig.DATA_H);
                 bookList.setModel(tableModel);
             }
         });
@@ -65,33 +71,12 @@ public class Index {
         int screenHeight = screenSize.height;
         frame.setLocation(screenWidth / 2 - windowWidth / 2, screenHeight / 2 - windowHeight / 2);
 
-        Object[][] data = {
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"},
-                {"a", "b", "c"}
-        };
-        TableModel tableModel = new DefaultTableModel(data, new Object[]{"啊", "吧", "从"});
+        Object[][] data = new Object[0][];
+
+
+        TableModel tableModel = new DefaultTableModel(data, th);
         bookList.setModel(tableModel);
+
     }
 
     /**

@@ -22,7 +22,9 @@ public class HttpUtil {
         if (token!=null){
             connection.header(tokenName,token);
         }
-        connection.data(map);
+        if (!map.isEmpty()){
+            connection.data(map);
+        }
         Document document = null;
         try {
             document = connection.post();
